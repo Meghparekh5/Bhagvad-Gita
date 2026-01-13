@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #faf7f2;
+    color: #333;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #3a1c00, #b85c00);
+    color: #fff;
+    padding: 16px 40px;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    cursor: pointer;
+    font-size: 24px;
+    transition: transform 0.3s;
+}
+
+.navbar h1:hover {
+    transform: scale(1.05);
+}
+
+.navbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+.navbar nav a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #ffd08a;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s;
+}
+
+.navbar nav a:hover::after {
+    width: 100%;
+}
+
+.hero {
+    background-image: url('../assets/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+}
+
+
+.hero-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 42px;
+    color: #3a1c00;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-content button {
+    background: #b85c00;
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.hero-content button:hover {
+    background: #3a1c00;
+    transform: translateY(-3px);
+}
+
+.topbar {
+    background: #f4efe6;
+    padding: 18px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.topbar h1 {
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.topbar h1:hover {
+    color: #b85c00;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.chapters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.chapter-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.chapter-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.chapter-card h3 {
+    color: #b85c00;
+}
+
+.breadcrumb {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.chapter-header h2 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.chapter-header p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.verses-title {
+    margin: 30px 0 15px;
+}
+
+.verses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    gap: 10px;
+}
+
+.verses-grid div {
+    background: #fff;
+    padding: 14px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.verses-grid div:hover {
+    background: #b85c00;
+    color: #fff;
+    transform: scale(1.08);
+}
