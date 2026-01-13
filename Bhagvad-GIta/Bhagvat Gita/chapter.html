@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+    <h1 onclick="location.href='index.html'">Bhagavad Gita</h1>
+</header>
+
+<section class="container">
+
+    <div class="breadcrumb">
+        Chapters > Chapter <span id="breadcrumbNumber"></span>
+    </div>
+
+    <div class="chapter-header">
+        <div>
+            <h2 id="chapterHeading"></h2>
+            <p id="chapterInfo"></p>
+            <p id="chapterDescription"></p>
+        </div>
+    </div>
+
+    <h3 class="verses-title">Verses</h3>
+    <div id="versesContainer" class="verses-grid"></div>
+
+</section>
+
+<script src="js/chapter.js"></script>
+</body>
+</html>
