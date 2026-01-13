@@ -3,38 +3,62 @@ It focuses on simplicity, performance, and usability, making it ideal for [stude
 
 🛠️ Tech Stack
 Technology	Purpose
+
 🌐 HTML5	Structure & layout
+
 🎨 CSS3 / Tailwind CSS	Styling & responsiveness
+
+
 ⚙️ JavaScript	Logic & interactivity
+
+
 📦 Local Storage / API	Data handling
+
+
 ✨ Features
 
 ✅ Clean and responsive UI
+
 ✅ Easy-to-use interface
+
 ✅ Optimized performance
+
 ✅ Fully client-side implementation
+
 ✅ Well-structured and readable code
 
+
 📂 Project Structure
+
 📁 project-folder
+
 │
 ├── 📄 index.html        # Main HTML file
+
 ├── 📄 style.css         # Styling file
+
 ├── 📄 script.js         # JavaScript logic
+
 └── 📄 README.md         # Project documentation
+
 
 🚀 How to Run the Project
 
+
 📥 Download or clone the repository
 
-git clone https://github.com/your-username/project-name.git
+
+https://github.com/Meghparekh5/Bhagvad-Gita/tree/main
 
 
 📂 Open the project folder
 
+
 🌐 Run index.html in your browser
 
+
 ✔️ No additional setup required!
+
 
 📸 Screenshots
 
@@ -55,6 +79,10 @@ git clone https://github.com/your-username/project-name.git
 🔮 Future Enhancements
 
 🔹 Add backend integration
+
 🔹 Improve UI animations
+
 🔹 Add user authentication
+
 🔹 Enhance data persistence
+
